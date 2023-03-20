@@ -1,0 +1,13 @@
+drop procedure NEWBOOKING;
+drop procedure ASSIGNFACILITYTOROOM;
+drop procedure DELETEROOM;
+drop function CUSTOMERINBOOKING;
+drop function CUSTOMEREXIST;
+drop trigger CUSTOMER_IN_UPPERCASE;
+drop trigger CATEGORY_IN_UPPERCASE;
+drop trigger FACILITY_IN_UPPERCASE;
+drop trigger BOOKING_DATES_VALIDATION;
+drop trigger ROOMCOUNTTRIGGER;
+drop trigger ROOMCOUNTTRIGGER2;
+drop trigger BOOKTIMESTRIGGER;
+drop trigger BOOKTIMESTRIGGER2;

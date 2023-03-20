@@ -1,0 +1,9 @@
+DECLARE 
+customer_id NUMBER:=3;
+room_number NUMBER:=162;
+room_category VARCHAR2(10):='TRIKLINO';
+check_in TIMESTAMP(6):='12-SEP-22 12.00.00.000000000 AM';
+check_out TIMESTAMP(6):='15-SEP-22 09.00.00.000000000 AM';
+BEGIN
+NEWBOOKING(customer_id,room_number,room_category,check_in,check_out);
+END;
